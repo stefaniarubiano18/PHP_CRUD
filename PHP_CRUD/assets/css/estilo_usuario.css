@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+main {
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: transparent;
+    background-color: rgba(5, 5, 5, 0.5);
+    text-shadow: 2px 2px 3px rgba(233, 233, 233, 0.8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.button_empleado{
+    display: inline-block;
+    color: rgba(51, 166, 219, 0.952);
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    opacity: 10;
+    transition: all .5s;
+    background-color: transparent;   
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 100px
+}
+
+.caja_texto{
+    width: 20%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    font-family: open sans;
+}
+
+.button_registrar{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.952);
+    font-size: 20px;
+}
+
+.button_buscar{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.952);
+    font-size: 20px;
+}
